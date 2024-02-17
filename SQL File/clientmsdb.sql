@@ -13,10 +13,10 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+--/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+--/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+--/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+--/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `clientmsdb`
@@ -43,7 +43,8 @@ CREATE TABLE `tbladmin` (
 --
 
 INSERT INTO `tbladmin` (`ID`, `AdminName`, `UserName`, `MobileNumber`, `Email`, `Password`, `AdminRegdate`) VALUES
-(1, 'Admin', 'admin', 8979555562, 'admin@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-10-21 07:01:36');
+(1, 'Admin', 'admin', 8979555562, 'admin@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-10-21 07:01:36'),
+(2, 'Adnan', 'Adnan', 8979555562, 'adnan@gmail.com', '2c9ebc5921116ff2263a35b95492e276', '2024-01-21 07:01:36');
 
 -- --------------------------------------------------------
 
@@ -81,7 +82,8 @@ INSERT INTO `tblclient` (`ID`, `AccountID`, `AccountType`, `ContactName`, `Compa
 (3, 809338201, 'Contact/Lead', 'Naveen Singh', 'ghj pvt ltd', 'ghj pvt ltd\r\ng-127 Delhi', 'New Delhi', 'Delhi/NCR', 1100096, 4464654665, 4654654646, 7879877897, 'ghj@gmail.com', 'www.ghj.com', 'dty jhgyujiou bgyt htuyy c iu gb m oojf', '202cb962ac59075b964b07152d234b70', '2019-10-22 05:26:50'),
 (4, 639974991, 'Contact/Lead', 'Abir Rajwansh', 'KML PVT LTD', 'KML PVT LTD\r\nh-224 sector 62, Noida(NCR)', 'Noida', 'Delhi/NCR', 5465456, 5523235656, 8985652332, 5451212451, 'kml@gmail.com', 'www.kml.com', 'hjkh khk h khkhkhiu uy uyt uytgyu', '202cb962ac59075b964b07152d234b70', '2019-10-22 05:29:59'),
 (5, 602410634, 'Active Account', 'Kundan Shah', 'JK Enterprises', 'JK Enterprises\r\nH-120,Shivala Varanasi', 'Varanasi', 'UP', 221001, 1213465464, 1645489799, 3465465465, 'jk@gmail.com', 'www.jk.com', 'ghjgjguyjgbhjghjghgcfdfgdgf', '202cb962ac59075b964b07152d234b70', '2019-10-23 10:42:52'),
-(6, 426546224, 'Active Account', 'Anuj Kumar', 'PHPGurukul Programming Blog', 'New Delhi', 'New Delhi', 'Delhi', 110001, 9354778033, 9354778033, 9354778033, 'phpgurukulofficial@gmail.com', 'https://phpgurukul.com', 'New User', 'f925916e2754e5e03f75dd58a5733251', '2019-11-27 16:00:24');
+(6, 426546224, 'Active Account', 'Anuj Kumar', 'PHPGurukul Programming Blog', 'New Delhi', 'New Delhi', 'Delhi', 110001, 9354778033, 9354778033, 9354778033, 'phpgurukulofficial@gmail.com', 'https://phpgurukul.com', 'New User', 'f925916e2754e5e03f75dd58a5733251', '2019-11-27 16:00:24'),
+(5, 602410631, 'Active Account', 'Adnan Maniyar', 'Apple', 'JK Enterprises\r\nH-120,Shivala kadki', 'Pune', 'MH', 221001, 1213465464, 1645489799, 3465465465, 'adnan@gmail.com', 'www.adnan.com', 'ghjgjguyjgbhjghjghgcfdfgdgf', 'd1a0a9e9391af09e978c4c3d11711e75', '2019-10-23 10:42:52');
 
 -- --------------------------------------------------------
 
@@ -249,6 +251,6 @@ ALTER TABLE `tblservices`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+--/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+--/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+--/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -2,7 +2,7 @@
 // DB credentials.
 define('DB_HOST','mycmswebapp-server.mysql.database.azure.com');
 define('DB_USER','bgisotkwit');
-define('DB_PASS','5F65434Z430I14MM$');
+define('DB_PASS','adnan@123');
 define('DB_NAME','mycmswebapp-database');
 // Establish database connection.
 try

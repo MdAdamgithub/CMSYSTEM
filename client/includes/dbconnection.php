@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','clientmsdb');
+define('DB_HOST','mycmswebapp-server.mysql.database.azure.com');
+define('DB_USER','bgisotkwit');
+define('DB_PASS','adnan@123');
+define('DB_NAME','mycmswebapp-database');
 // Establish database connection.
 try
 {

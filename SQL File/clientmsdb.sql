@@ -83,7 +83,7 @@ INSERT INTO `tblclient` (`ID`, `AccountID`, `AccountType`, `ContactName`, `Compa
 (4, 639974991, 'Contact/Lead', 'Abir Rajwansh', 'KML PVT LTD', 'KML PVT LTD\r\nh-224 sector 62, Noida(NCR)', 'Noida', 'Delhi/NCR', 5465456, 5523235656, 8985652332, 5451212451, 'kml@gmail.com', 'www.kml.com', 'hjkh khk h khkhkhiu uy uyt uytgyu', '202cb962ac59075b964b07152d234b70', '2019-10-22 05:29:59'),
 (5, 602410634, 'Active Account', 'Kundan Shah', 'JK Enterprises', 'JK Enterprises\r\nH-120,Shivala Varanasi', 'Varanasi', 'UP', 221001, 1213465464, 1645489799, 3465465465, 'jk@gmail.com', 'www.jk.com', 'ghjgjguyjgbhjghjghgcfdfgdgf', '202cb962ac59075b964b07152d234b70', '2019-10-23 10:42:52'),
 (6, 426546224, 'Active Account', 'Anuj Kumar', 'PHPGurukul Programming Blog', 'New Delhi', 'New Delhi', 'Delhi', 110001, 9354778033, 9354778033, 9354778033, 'phpgurukulofficial@gmail.com', 'https://phpgurukul.com', 'New User', 'f925916e2754e5e03f75dd58a5733251', '2019-11-27 16:00:24'),
-(5, 602410631, 'Active Account', 'Adnan Maniyar', 'Apple', 'JK Enterprises\r\nH-120,Shivala kadki', 'Pune', 'MH', 221001, 1213465464, 1645489799, 3465465465, 'adnan@gmail.com', 'www.adnan.com', 'ghjgjguyjgbhjghjghgcfdfgdgf', 'd1a0a9e9391af09e978c4c3d11711e75', '2019-10-23 10:42:52');
+(5, 602410631, 'Active Account', 'Adnan Maniyar', 'Apple', 'JK Enterprises\r\nH-120,Shivala kadki', 'Pune', 'MH', 221001, 1213465464, 1645489799, 3465465465, 'adnan@gmail.com', 'www.adnan.com', 'nothing', 'd1a0a9e9391af09e978c4c3d11711e75', '2019-10-23 10:42:52');
 
 -- --------------------------------------------------------
 

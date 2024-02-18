@@ -73,6 +73,7 @@ echo "<script>alert('Invalid Details');</script>";
 
 		</div>
 
+		<iframe src='https://webchat.botframework.com/embed/LanguageCMS-bot?s=OsxCWo-Eixc.Da5AHXZdRuv34CnedwT6X0nqw0wj-t4LgzPhHU4T-Rk'  style='min-width: 400px; width: 70%; min-height: 500px;'></iframe>
 
 		<!--//login-top-->
 	</div>

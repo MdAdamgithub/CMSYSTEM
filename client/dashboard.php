@@ -106,7 +106,7 @@ $(".sidebar-icon").click(function() {
 	
 </center>
 	<div>
-		</iframe><iframe src='https://webchat.botframework.com/embed/LangForBot-bot?s=bP9F4PArKJs.QSVX5wPR6uIW0JaAjF9HwetkfC9uxc6BSTCqTXEk7dU'  style='min-width: 400px; width: 70%; min-height: 500px; margin-left: 250px;'></iframe>
+	      <iframe src='https://webchat.botframework.com/embed/LangForBot-bot?s=bP9F4PArKJs.QSVX5wPR6uIW0JaAjF9HwetkfC9uxc6BSTCqTXEk7dU'  style='min-width: 400px; width: 70%; min-height: 500px; margin-left: 250px;'></iframe>
 	</div>
 	<center>
 
